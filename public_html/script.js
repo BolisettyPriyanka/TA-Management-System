@@ -1,12 +1,3 @@
-/* 
- * Student Info: Name=PriyankaBolisetty, ID=15400
- * Subject: CS557A_HW1_Summer_2016
- * Author: Expression Priyanka is undefined on line 6, column 27 in file:///Users/priyanka/NetBeansProjects/TAManagement/nbproject/licenseheader.txt.
- * Filename: Expression Priyanka_CS557_15400_HW1 is undefined on line 7, column 29 in file:///Users/priyanka/NetBeansProjects/TAManagement/nbproject/licenseheader.txt.
- * Date and Time: Jun 4, 2016 9:27:02 PM
- * Project Name: Priyanka_15400_CS557A_HW1
- */
-
 var listOfTAs = [];
 var listOfTAsLength;
 var curIndex = 0;
