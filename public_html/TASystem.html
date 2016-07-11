@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+/* 
+ * Student Info: Name=PriyankaBolisetty, ID=15400
+ * Subject: CS557A_HW1_Summer_2016
+ * Author: Expression Priyanka is undefined on line 6, column 27 in file:///Users/priyanka/NetBeansProjects/TAManagement/nbproject/licenseheader.txt.
+ * Filename: Expression Priyanka_CS557_15400_HW1 is undefined on line 7, column 29 in file:///Users/priyanka/NetBeansProjects/TAManagement/nbproject/licenseheader.txt.
+ * Date and Time: Jun 4, 2016 9:27:02 PM
+ * Project Name: Priyanka_15400_CS557A_HW1
+ */
+-->
+<html>
+    <head>
+        <title>TA Management</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="page">
+            
+            <header class="header">
+                <img class="image" src="images/TA.png" alt="TA System">
+            </header>
+            
+            <aside class="sidebar">
+               <p id="usefulLinks"><strong>Useful Links</strong></p>
+               <ul>
+                   <li><p><a href="http://npu.edu/" >NPU Website</a></p></li>
+                   <li><p><a href="https://www.google.com/" >Google Search</a></p></li>
+                   <li><p><a href="http://www.bing.com/" >Bing Search</a></p></li>
+               </ul>
+            </aside>
+            
+            <section class="mainContent">
+                    <h2>This is a test</h2>
+                    
+                    <div id="studentinfo">
+                        <table>
+                            <tr>
+                                <td>First Name:</td>
+                                <td><input type="text" name="stuFirstName" id="firstName"></td>
+                            </tr>
+                            <tr>
+                                <td>Last Name:</td>
+                                <td><input type="text" name="stuLastName" id="lastName"></td>
+                            </tr>
+                            <tr>
+                                <td>Student ID:</td>
+                                <td><input type="text" name="stuId" id="studentId"></td>
+                            </tr>
+                            <tr>
+                                <td>Area of Specialization:</td>
+                                <td>
+                                    <select id="stuSpecialization">
+                                        <option name="programming">Programming</option>
+                                        <option name="database">Database</option>
+                                        <option name="testing">Testing</option>
+                                        <option name="networking">Networking</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Selected:</td>
+                                <td><input type="checkbox" id="stuSelected"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div id="functionalBtns">
+                        <table id="functionalBtns">
+                            <tr><td><input type="button" id="btnNew" value="New" /></td>
+                                <td><input type="button" id="btnEdit" value="Edit"/></td>
+                                <td><input type="button" id="btnDelete" value="Delete"/></td>
+                                <td><input type="button" id="btnSave" value="Save"/></td>
+                                <td><input type="button" id="btnCancel" value="Cancel"/></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" id="btnFirst" value="First"/></td>
+                                <td><input type="button" id="btnPrevious" value="Previous"/></td>
+                                <td><input type="button" id="btnNext" value="Next"/></td>
+                                <td><input type="button" id="btnLast" value="Last"/></td>
+                                <td><input type="button" id="btnSelect" value="Select"/></td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div id="logs">
+                        <h2>Logs</h2>
+                        <div>
+                            <textarea id="logsText" rows="7" cols="85"></textarea>
+                        </div>
+                    </div>
+            </section>
+            
+            <footer class="footer">
+                &copy; 2016 Northwestern Polytechnic University, All Rights Reserved
+            </footer>
+        
+        </div>
+    
+        <script src="script.js"></script>
+    
+    </body>
+</html>
